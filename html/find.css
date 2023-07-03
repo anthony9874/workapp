@@ -1,0 +1,92 @@
+:root {
+    --green: #0DAA00;
+    --black: #0000;
+    --white: #ffff;
+    --gray: #8F8F8F;
+
+    --blue: #001233;
+    --purple: #3C096C;
+    --orange: #FF5400;
+    --red: #A4161A;
+}
+
+/*cofig*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.wrapper {
+    max-width: 360px;
+    /*border: 1px solid red;*/
+    margin: auto;
+    height: 100%;
+    display: flex;
+    padding: 16px;
+}
+
+/*container*/
+.container {
+    height: 100vh;
+}
+
+.content {
+    /*border: 1px solid #001233;*/
+    width: 100%;
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/*find*/
+
+/*PERFIL*/
+.perfil {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 31px;
+    align-self: stretch;
+}
+
+.perfil .descripcion span {
+    color: var(--gray);
+    font-size: 14px;
+}
+
+
+.perfil i {
+ font-size: 30px;
+}
+
+
+/*SEARCH*/
+.search {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.search input {
+    border-radius:  8px 0px 0px 8px ;
+    border: 1px solid var(--gray);
+    border-right: none;
+    padding: 16px;
+    width: 100%;
+}
+
+.search .icon {
+    background-color: var(--green);
+    height: 100% ;
+    display: flex;
+    border-radius: 0 8px 8px 0;
+}
+
+.search .icon i {
+    font-size: 30px;
+color: var(--white);
+margin: auto;
+padding: 0 8px 0 8px;
+}
